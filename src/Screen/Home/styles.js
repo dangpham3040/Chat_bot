@@ -4,39 +4,30 @@ import { Colors } from '../../Utils/Color';
 import { Fonts } from '../../Utils/Fonts';
 import { common } from '../../Utils/common_styles';
 export const styles = StyleSheet.create({
-    loading: {
+    container: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    component: {
-        marginVertical: 10,
-    },
-    bannerBackground: {
-        height: 150,
-        width: "100%",
-
-    },
-    dot: {
-        width: 10,
-        height: 10,
-        borderRadius: 15,
-        padding: 0,
-        margin: 0,
-    },
-    imgLogo: {
-        height: 13,
-        width: 60
-    },
-    listCategory: {
-        paddingLeft: 20,
-        paddingRight: -5
-    },
-    listProduct: {
-        paddingHorizontal:20
-    },
-    view_seach:{
-        marginHorizontal:20,
-        marginVertical:10
-    }
+        backgroundColor: "#fff",
+        alignItems: "center",
+        justifyContent: "center",
+      },
+      header: {
+        fontSize: 24,
+        fontWeight: "bold",
+        marginBottom: 20,
+      },
+      input: {
+        height: 40,
+        width: "80%",
+        borderColor: "gray",
+        borderWidth: 1,
+        padding: 10,
+        marginBottom: 20,
+        color: "#000"
+      },
+      output: {
+        fontSize: 16,
+        margin: 20,
+        textAlign: "center",
+        color: "#000"
+      },
 })
